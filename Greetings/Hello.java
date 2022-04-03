@@ -4,6 +4,8 @@ public class Hello {
 
 		System.out.println("My name is DJ\nI am 28 years old\nMy hometown is Grove City Ohio");
 
+
+		boolean isLame = false;
 	}
 }
 
