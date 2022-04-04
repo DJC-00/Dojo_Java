@@ -30,4 +30,4 @@ public class Test {
         System.out.println(alfredTest);
         System.out.println(notRelevantTest);
     }
-    }
+}
