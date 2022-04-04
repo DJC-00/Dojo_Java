@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 public class TestCafe {
     public static void main(String[] args) {
-    	CafeUtil CafeUtil = new CafeUtil();
+    CafeUtil CafeUtil = new CafeUtil();
 		Integer testStreakGoal = CafeUtil.getStreakGoal();
     /* 
       You will need add 1 line to this file to create an instance 
