@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "MapFolder\\MapApp"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "Exceptions\\ExceptionsApp"
+		},
+		{
+			"path": "OrdersItems\\CoffeeShop"
+		},
+		{
+			"path": "BaristaChallenge\\BaristaChallenge"
+		},
+		{
+			"path": "BankAccount"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"BankAccount/src"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		]
+	}
+}
