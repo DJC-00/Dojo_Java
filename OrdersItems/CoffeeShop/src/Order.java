@@ -11,7 +11,7 @@ public class Order {
     public Order(String orderName, ArrayList<Item> order){
         name = orderName;
         items = order;
-        total = Order.getTotal(order);
+        total = this.getTotal(items);
         ready = false;
     }
 
@@ -38,7 +38,7 @@ public class Order {
         return("Name: " + this.name + "\nItems: " + itemStr + "\nTotal: " + tString + "\nStatus: " + statusString);
     }
 
-    public static Float getTotal(ArrayList<Item> itemList){
+    public Float getTotal(ArrayList<Item> itemList){
         Float total = 0.00f;
         for (int i = 0; i < itemList.size(); i++){
             Item item = itemList.get(i);
