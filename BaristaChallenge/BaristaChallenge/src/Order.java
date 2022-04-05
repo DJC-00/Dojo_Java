@@ -90,7 +90,7 @@ public class Order {
             this.total -= amt;
         }
         else if  (opp == "="){
-            this.total += amt;
+            this.total = amt;
         }
         else{
             System.out.println("Invalid Opperator Given");
