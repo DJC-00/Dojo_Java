@@ -182,7 +182,7 @@ public class BankAccount {
     }
 
     //===========================================
-    //   Get and Set Checking
+    //   Get static Variables
     //===========================================
 
     public static Double getTotalMoney() {
