@@ -8,7 +8,15 @@ public class Mammal {
     }
 
     protected void displayEnergy(){
-        System.out.println(this.energyLevel);
+        System.out.println("Energy: " + this.energyLevel);
+    }
+
+    protected Integer getEnergy(){
+        return this.energyLevel;
+    }
+
+    protected void setEnergy(Integer val){
+        this.energyLevel = val;
     }
 
     protected void addEnergy(Integer val){
@@ -17,6 +25,10 @@ public class Mammal {
 
     protected void subtractEnergy(Integer val){
         this.energyLevel -= val;
+    }
+
+    protected void outOfEnergy(){
+        System.out.println("Not Enough Energy!");
     }
 }
 
