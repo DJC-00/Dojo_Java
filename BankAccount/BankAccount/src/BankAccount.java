@@ -158,30 +158,10 @@ public class BankAccount {
 
     private Boolean isValidAmount(String acc, Double amt){
         Boolean isValid = true;
-        // Double testBalance = 0.0;
-        // if (acc == "Checking"){
-        //     testBalance = this.getCheckingBalanche();
-        //     System.out.println("1");
-        // }
-        // else if (acc == "Savings"){
-        //     testBalance = this.getSavingsBalance();
-        //     System.out.println("2");
-        //     System.out.println(this.savingsBalance);
-        // }
-        // else{
-        //     isValid = false;
-        //     System.out.println("3");
-        // }
-
         if (amt < 0){
             isValid = false;
             System.out.println("11");
         }
-        // if (amt > testBalance){
-        //     isValid = false;
-        //     System.out.println("22");
-        // }
-
         return isValid;
     }
 
